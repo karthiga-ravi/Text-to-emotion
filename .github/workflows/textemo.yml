@@ -39,5 +39,5 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker tag emotion-classifier-app KarthigaRavi29/emotion-classifier-app:latest
-          docker push KarthigaRavi29/emotion-classifier-app:latest
+          docker tag emotion-classifier-app karthigaravi29/emotion-classifier-app:latest
+          docker push karthigaravi29/emotion-classifier-app:latest
